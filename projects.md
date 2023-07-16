@@ -9,29 +9,38 @@ nav-menu: true
 <!-- Main -->
 <div id="main" class="alt">
 <ol>
-<h3 id="content"> <li> Pairs Trading </li></h3>
+<h3 id="content"> <li> Pairs Trading Strategy using Python</li></h3>
 <ul>
 <li>Implemented pairs trading strategy in python using a top-down approach; developed the strategy with optimal entry and exit points and applied to out-of-sample period.</li>
 <li>Achieved a Sharpe ratio of 2.23; also computed cumulative PnL and max drawdown of the strategy. </li>
 </ul>
-<h3 id="content"> <li> Portfolio Optimization </li></h3>
+<h3 id="content"> <li> Portfolio Optimization using Deep Reinforcement Learning </li></h3>
 <ul>
-<li>Built a custom RL environment in Python for asset allocation of DJI constituents; conducted analysis during bull and bear market periods and compared the results with performance of DJI and traditional optimization methods.
-</li>
+<li>Built a custom RL environment in Python for asset allocation of DJI constituents; conducted analysis during bull and bear market periods and compared the results with performance of DJI and traditional optimization methods. </li>
 <li>Achieved a CAGR of 24.5% and sharpe ratio of 2.17 with RL model, compared to DJI’s CAGR of 13.57% and sharpe ratio of 1.15. </li>
 </ul>
-<h3 id="content"> <li> Option Pricing </li></h3>
+<h3 id="content"> <li> Portfolio Optimization using Black Litterman model </li></h3>
+<ul>
+<li> Employed the BL Model to construct a portfolio by incorporating views derived from analyst recommendations on Yahoo Finance. </li>
+<li> Attained a significantly more balanced portfolio in comparison to the Markowitz model, demonstrating improved optimization results. </li>
+</ul>
+<h3 id="content"> <li> Option Pricing Using Numerical Methods </li></h3>
 <ul>
 <li>Developed an application in C++ using OOPS concepts to price European, American, Asian and Basket options using finite
 difference, monte carlo simulation and numerical integration methods.
 </li>
 <li>Used control variate technique to compute greeks of the options and to reduce the standard errors of their estimated prices. </li>
 </ul>
-<h3 id="content"> <li> Yield Curve Bootstrapping </li></h3>
+<h3 id="content"> <li> Yield Curve Bootstrapping using T-Bond quotes</li></h3>
 <ul>
 <li>Computed all the coupon payment dates, accrued interest and invoice prices of the reported US Treasury notes and bonds in Excel.
 </li>
 <li>Built an optimized zero-coupon bond term structure using regression. </li>
+</ul>
+<h3 id="content"> <li> Cash flow simulation of a defaultable bond</li></h3>
+<ul>
+<li>Built a simulation model of the quarterly cash flows of a series of corporate bonds with correlated default probability.</li>
+<li>Designed a CDO structure consisting of PAC, mezzanine, and residual tranches from these cash flows. </li>
 </ul>
 </ol>
 
