@@ -2,7 +2,7 @@
 layout: post
 title: Research & Trading
 # description: Lorem ipsum dolor est
-image: assets/images/project4.jpg
+image: assets/images/trading2.jpg
 nav-menu: true
 ---
 <br>
