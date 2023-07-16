@@ -9,29 +9,14 @@ nav-menu: true
 <!-- Main -->
 <div id="main" class="alt">
 <ol>
-<h3 id="content"> <li> Pairs Trading </li></h3>
+<h3 id="content"> <li> Analysis of NAVs of mutual funds in the Indian Financial Market </li></h3>
 <ul>
-<li>Implemented pairs trading strategy in python using a top-down approach; developed the strategy with optimal entry and exit points and applied to out-of-sample period.</li>
-<li>Achieved a Sharpe ratio of 2.23; also computed cumulative PnL and max drawdown of the strategy. </li>
-</ul>
-<h3 id="content"> <li> Portfolio Optimization </li></h3>
-<ul>
-<li>Built a custom RL environment in Python for asset allocation of DJI constituents; conducted analysis during bull and bear market periods and compared the results with performance of DJI and traditional optimization methods.
-</li>
-<li>Achieved a CAGR of 24.5% and sharpe ratio of 2.17 with RL model, compared to DJI’s CAGR of 13.57% and sharpe ratio of 1.15. </li>
-</ul>
-<h3 id="content"> <li> Option Pricing </li></h3>
-<ul>
-<li>Developed an application in C++ using OOPS concepts to price European, American, Asian and Basket options using finite
-difference, monte carlo simulation and numerical integration methods.
-</li>
-<li>Used control variate technique to compute greeks of the options and to reduce the standard errors of their estimated prices. </li>
-</ul>
-<h3 id="content"> <li> Yield Curve Bootstrapping </li></h3>
-<ul>
-<li>Computed all the coupon payment dates, accrued interest and invoice prices of the reported US Treasury notes and bonds in Excel.
-</li>
-<li>Built an optimized zero-coupon bond term structure using regression. </li>
+<li>Evaluated returns of different categories of mutual funds - large cap, mid cap and small cap in bull and bear phases.</li>
+<li>Performed Exploratory Data Analysis on 11 macro-economic indicators (Consumer Price Index, Export & Import, S&P BSE
+500 Index) to identify the ones most likely to affect Net Asset Value (NAV) of chosen funds. </li>
+<li>Assessed risk and rewards associated with funds by evaluating various performance measures- Jensen’s alpha, beta,
+standard deviation, downside deviation, Treynor’s ratio, Sharpe ratio and Sortino’s ratio.</li>
+<li>Identified highest performing mathematical model for predicting NAV values.</li>
 </ul>
 </ol>
 
